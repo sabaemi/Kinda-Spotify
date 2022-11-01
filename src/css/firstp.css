@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+  }
+  
+    div.scrollmenu {
+      background-color: rgba(255, 255, 255, .15); 
+      overflow: auto;
+      white-space: nowrap;
+    }
+    
+    div.scrollmenu a {
+      display: inline-block;
+      /* color: #ff8447; */
+      color: rgb(73, 223, 223);
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+    
+    div.scrollmenu a:hover {
+      background-color: #777;
+      color: rgb(0, 0, 0);
+    }
+    .images{
+      position: absolute;
+      width: 572px;
+      height: 300.3px;
+      /* filter: blur(7px);
+    -webkit-filter: blur(7px); */
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      }
+    

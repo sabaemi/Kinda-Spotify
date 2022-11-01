@@ -1,0 +1,93 @@
+body {
+  background-color:rgb(68, 66, 66);
+    font-family:Verdana;
+  }
+  h1 {
+    color: rgb(27, 103, 126);
+    text-align: center;
+  }
+  h2 {
+    color: rgb(57, 155, 48);
+    text-align: left;
+  }
+  .error{
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+
+input[type=text] {
+    width: 60%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family:Verdana; 
+    border: none;
+    background: #f1f1f1;
+  }
+
+  input[type=date] {
+    width: 60%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family:Verdana; 
+    background: #f1f1f1;
+    border: none;
+  }
+
+  input[type=password] {
+    width: 60%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family:Verdana; 
+    border: none;
+    background: #f1f1f1;
+  }
+  label{
+    font-family: Verdana;
+    font-size: 20px;
+    color: #23107a;
+  }
+  div.form1
+{
+    display: block;
+    text-align: center;
+}
+  form {
+    text-align: left;
+    display:inline-block;
+    background-color: #fefefe;
+    border-radius: 5px;
+    height: auto;
+    padding: 20px 28px;
+    margin: 5% auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  input[type=submit] {
+    width: 40%;
+    padding: 5px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-family:Verdana; 
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(255, 255, 255);
+  }
+  .cnclbtn{
+    background-color: #f44336;
+    border-color: #f44336;
+  }
+  .sbmtbtn{
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+  }
+  .hmbtn{
+    background-color: #31bae4;
+    border-color: #31bae4;
+  }
+  
